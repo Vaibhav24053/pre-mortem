@@ -27,7 +27,7 @@ type ApiResult = {
   risks: Risk[];
 };
 
-const API_URL = 'http://localhost:5001';
+const API_URL = 'https://pre-mortem.onrender.com';
 
 const steps = [
   'Parsing the claim and extracting the real buyer',
